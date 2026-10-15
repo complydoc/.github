@@ -13,11 +13,13 @@
   </p>
 </div>
 
-Offline document analysis for LLM pipelines.
+Know your documents before they reach an LLM.
+
+Observability for the AI ingestion pipeline that feeds your model.
 
 Core library:
 
-- [`complydoc`](https://github.com/complydoc/complydoc) – command line tool and Python library that reports on documents before they enter an LLM pipeline: token cost across models and extraction paths, extraction readiness, personal and financial identifiers (masked), and hidden or instruction-like content. Runs locally, with outbound network access blocked.
+- [`complydoc`](https://github.com/complydoc/complydoc) – command line tool and Python library that follows documents through that pipeline: token cost across models and extraction paths, extraction readiness, personal and financial identifiers (masked), and hidden or instruction-like content.
 
 Loader and pipeline tooling, in the same package:
 
